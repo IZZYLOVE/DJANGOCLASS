@@ -1,0 +1,8 @@
+<p>TESTING MY DJANGO FORM</p>
+
+<form action="" method="post" style="background-color: bisque;">
+{% csrf_token %}
+<!-- {{form}} -->
+{{form.as_p}} <!-- renders the form elements as paragraphs tags-->
+<input type="submit" value="Submit">
+</form>
